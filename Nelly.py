@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 from google_trans_new import google_translator
 
 translator = google_translator()
-
+from config import bot, BOT_TOKEN, ARQ_API_KEY, ARQ_API_BASE_URL, LANGUAGE
 BOT_TOKEN = Config.BOT_TOKEN
 BOT_ID = Config.BOT_ID
 
