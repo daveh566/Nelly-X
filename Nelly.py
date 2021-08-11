@@ -88,4 +88,14 @@ async def start(client, message):
        await message.reply("**I'm alive, check my pm to know more about me!**")
    
   
-bot.run()
+       await bot.start()
+    print(
+        """
+Your Nelly Is Deployed Successfully.
+"""
+    )
+    await idle()
+
+
+loop = get_event_loop()
+loop.run_until_complete(main())
