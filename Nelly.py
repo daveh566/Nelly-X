@@ -14,7 +14,6 @@ BOT_ID = Config.BOT_ID
 
 bot = Client("NellyChat", bot_token=BOT_TOKEN, api_id=6,
              api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)")
 print("\nNelly Chatbot Started!\n")
 
 
